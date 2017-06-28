@@ -11,7 +11,7 @@
     <!-- 提供方应用信息，用于计算依赖关系 -->
     <dubbo:application name="hello_world_provider" owner="jcj" />
 
-    <dubbo:registry address="zookeeper://182.254.209.43:2181" />
+    <dubbo:registry address="zookeeper://182.254.xx.xx:2181" />
 
     <!-- 生成远程服务代理，可以和本地bean一样使用其接口 -->
     <dubbo:reference id="helloService" interface="com.dubbo.demo.IHelloWorld" />
