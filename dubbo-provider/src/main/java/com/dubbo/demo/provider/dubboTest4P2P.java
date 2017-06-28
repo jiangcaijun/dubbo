@@ -7,11 +7,11 @@ import java.io.IOException;
 /**
  * Created by jiangcaijun on 2017/3/10.
  */
-public class dubboTest {
+public class dubboTest4P2P {
 
     public static void main(String []args) throws IOException {
 
-        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext(new String("provider.xml"));
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext(new String("p2p_provider.xml"));
 
         classPathXmlApplicationContext.start();
 
